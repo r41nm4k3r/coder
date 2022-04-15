@@ -1,0 +1,61 @@
+[categories]
+one = "Κατηγορία"
+other = "Κατηγορίες"
+
+[tags]
+one = "tag"
+other = "tags"
+
+[series]
+one = "series"
+other = "series"
+
+[authors]
+one = "author"
+other = "authors"
+
+[posts]
+other = "posts"
+
+[reading_time]
+one = "Διάβασμα ενος λεπτού"
+other = "{{ .Count }}-minute read"
+
+[page_not_found]
+other = "Η σελίδα δεν βρέθηκε"
+
+[page_does_not_exist]
+other = "Λυπάμαι, η σελίδα δεν υπάρχει."
+
+[head_back]
+other = "Μπορείς να πας πίσω <a href=\"{{ . }}\">homepage</a>."
+
+[licensed_under]
+other = "Licensed under"
+
+[powered_by]
+other = "Powered by"
+
+[see_also]
+other = "Δείτε επίσης"
+
+[note]
+other = "note"
+
+[tip]
+other = "tip"
+
+[example]
+other = "παράδειγμα"
+
+[question]
+other = "ερώτηση"
+
+[info]
+other = "πληροφορίες"
+
+[warning]
+other = "προειδοποίηση"
+
+[error]
+other = "σφάλμα"
