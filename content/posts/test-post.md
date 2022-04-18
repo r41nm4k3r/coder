@@ -18,6 +18,10 @@ aliases = ["migrate-from-jekyl"]
 
 Test post in english
 <!--more-->
+audio/sample.mp4
+
+{{<audio src="audio/sample.wav" src="audio/sample.wav" src="audio/sample.wav" caption="your caption" >}}
+
 
 ## Headings
 
