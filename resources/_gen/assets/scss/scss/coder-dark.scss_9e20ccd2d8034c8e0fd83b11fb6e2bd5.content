@@ -180,7 +180,7 @@ body.colorscheme-dark .navigation span {
   color: #dadada; }
 
 body.colorscheme-dark .navigation a:hover, body.colorscheme-dark .navigation a:focus {
-  color: #42a5f5; }
+  color: #fff; }
 
 @media only screen and (max-width: 768px) {
   body.colorscheme-dark .navigation .navigation-list {
@@ -209,7 +209,7 @@ body.colorscheme-dark .navigation .menu-button i:hover, body.colorscheme-dark .n
   body.colorscheme-auto .navigation span {
     color: #dadada; }
   body.colorscheme-auto .navigation a:hover, body.colorscheme-auto .navigation a:focus {
-    color: #42a5f5; } }
+    color: #fff; } }
 
 @media only screen and (prefers-color-scheme: dark) and (max-width: 768px) {
   body.colorscheme-auto .navigation .navigation-list {
