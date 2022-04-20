@@ -3,4 +3,4 @@ author = "Hugo Authors"
 title = "Music"
 +++
 
-{{< player >}}
+{{< myplayer >}}
