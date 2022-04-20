@@ -3,7 +3,7 @@
 min = "0.77.0"
 
 baseURL = "https://example.com/"
-title = "Nny"
+title = "Nnyx"
 theme = "coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -16,7 +16,7 @@ enableEmoji = true
 # disqusShortname = "yourdiscussshortname"
 
 [params]
-author = "Nny"
+author = "Nnyx"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Nny's personal website"
 keywords = "blog,developer,personal"
@@ -118,25 +118,25 @@ url = "https://github.com/r41nm4k3r"
 name = "Gitlab"
 icon = "fa fa-2x fa-gitlab"
 weight = 2
-url = "https://gitlab.com/johndoe/"
+url = "#"
 
 [[params.social]]
 name = "Twitter"
 icon = "fa fa-2x fa-twitter"
 weight = 3
-url = "https://twitter.com/johndoe/"
+url = "#"
 
 [[params.social]]
 name = "LinkedIn"
 icon = "fa fa-2x fa-linkedin"
 weight = 4
-url = "https://www.linkedin.com/in/johndoe/"
+url = "#"
 
 [[params.social]]
 name = "Medium"
 icon = "fa fa-2x fa-medium"
 weight = 5
-url = "https://medium.com/@johndoe"
+url = "#"
 
 [[params.social]]
 name = "RSS"
@@ -148,7 +148,7 @@ type = "application/rss+xml"
 
 [languages.en]
 languageName = ":uk:"
-title = "Nny"
+title = "Nnyx"
 
 [[languages.en.menu.main]]
 name = "About"
@@ -177,10 +177,10 @@ url = "contact/"
 
 [languages.el]
 languageName = ":greece:"
-title = "Nny"
+title = "Nnyx"
 
 [languages.el.params]
-author = "Nny"
+author = "NnyX"
 info = "System Engineer, DevOps and Hobbyist"
 description = "Sítio pessoal de João Ninguém"
 keywords = "blog,desenvolvedor,pessoal"
