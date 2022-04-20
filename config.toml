@@ -20,7 +20,7 @@ author = "NnyX"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Nnyx's personal website"
 keywords = "blog,developer,personal"
-info = ["System Engineer, DevOps", "Hobbyist"]
+info = ["System Engineer, DevOps", Hobbyist]
 avatarurl = "images/avatar.png"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
