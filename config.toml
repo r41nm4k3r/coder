@@ -182,8 +182,8 @@ title = "NnyX"
 [languages.el.params]
 author = "NnyX"
 info = "System Engineer, DevOps, Hobbyist"
-description = "Sítio pessoal de João Ninguém"
-keywords = "blog,desenvolvedor,pessoal"
+description = "Προσωπικο μου blog"
+keywords = "blog,personal,tech"
 
 [[languages.el.menu.main]]
 name = "Ποιος είμαι"
