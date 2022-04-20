@@ -3,7 +3,7 @@
 min = "0.77.0"
 
 baseURL = "https://example.com/"
-title = "Nnyx"
+title = "NnyX"
 theme = "coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -16,7 +16,7 @@ enableEmoji = true
 # disqusShortname = "yourdiscussshortname"
 
 [params]
-author = "Nnyx"
+author = "NnyX"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Nnyx's personal website"
 keywords = "blog,developer,personal"
@@ -181,7 +181,7 @@ title = "Nnyx"
 
 [languages.el.params]
 author = "NnyX"
-info = "System Engineer, DevOps and Hobbyist"
+info = "System Engineer, DevOps, Hobbyist"
 description = "Sítio pessoal de João Ninguém"
 keywords = "blog,desenvolvedor,pessoal"
 
