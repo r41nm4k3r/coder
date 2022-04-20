@@ -148,7 +148,7 @@ type = "application/rss+xml"
 
 [languages.en]
 languageName = ":uk:"
-title = "Nnyx"
+title = "NnyX"
 
 [[languages.en.menu.main]]
 name = "About"
@@ -177,7 +177,7 @@ url = "contact/"
 
 [languages.el]
 languageName = ":greece:"
-title = "Nnyx"
+title = "NnyX"
 
 [languages.el.params]
 author = "NnyX"
