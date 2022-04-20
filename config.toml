@@ -196,7 +196,7 @@ weight = 2
 url = "posts/"
 
 [[languages.el.menu.main]]
-name = "Πρότζεκτ"
+name = "Projects"
 weight = 3
 url = "projects/"
 
