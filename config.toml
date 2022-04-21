@@ -23,7 +23,7 @@ keywords = "blog,developer,personal"
 info = ["System Engineer, DevOps, Hobbyist"]
 avatarurl = "images/avatar.png"
 #gravatar = "john.doe@example.com"
-favicon_32 = "/img/favicon-32x32.png"
+favicon_32 = "img/favicon-32x32.png"
 dateFormat = "January 2, 2006"
 since = 2018
 # Git Commit in Footer, uncomment the line below to enable it
