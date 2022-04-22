@@ -3,4 +3,4 @@ title = "Επικοινωνία"
 slug = "contact"
 +++
 
-{{< test >}}
+{{< contact >}}
