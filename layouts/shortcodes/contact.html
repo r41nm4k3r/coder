@@ -1,6 +1,6 @@
 <form name="contact" method="POST" data-netlify="true">
     <h4 class="center"> Ping me</h4>
-    <input placeholder="Name" type="text"  value="" required>
+    <input name="name" placeholder="Name" type="text"  value="" required>
     <input 
       placeholder="Email address" 
       type="email" 
@@ -11,7 +11,7 @@
     <span class="validation-text">Please enter a valid email address.</span>
     <input name="subject" placeholder="Subject" type="text" value="" required>
     <div class="flex-area">
-      <textarea placeholder="Message" rows="1" required></textarea>
+      <textarea name="message" placeholder="Message" rows="1" required></textarea>
     </div>
     <button class="send-button">Send &nbsp;<i class="fa fa-send-o"></i></button>
   </form>
