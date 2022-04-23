@@ -1,21 +1,21 @@
-<form name="contact" method="POST" data-netlify="true">
+<form name="contact" method="POST" data-netlify-recaptcha="true" netlify-honeypot="bot-field" data-netlify="true">
     <h4 class="center"> Ping me</h4>
     <input name="name" placeholder="Name" type="text"  value="" required>
     <input 
-      placeholder="Email address" 
-      type="email" 
-      name="email"
-      onblur="this.setAttribute('value', this.value);" 
-      value="" 
-      required>
+    placeholder="Email address" 
+    type="email" 
+    name="email"
+    onblur="this.setAttribute('value', this.value);" 
+    value="" 
+    required>
     <span class="validation-text">Please enter a valid email address.</span>
     <input name="subject" placeholder="Subject" type="text" value="" required>
     <div class="flex-area">
-      <textarea name="message" placeholder="Message" rows="1" required></textarea>
+    <textarea name="message" placeholder="Message" rows="1" required></textarea>
     </div>
     <button class="send-button">Send &nbsp;<i class="fa fa-send-o"></i></button>
-  </form>
-  <!--
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
-  -->
+</form>
+<!--
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
+-->
