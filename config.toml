@@ -123,7 +123,7 @@ url = "#"
 
 [[params.social]]
 name = "Email"
-icon = "fa fa-2x fa-at"
+icon = "fa fa-2x fa-envelope"
 weight = 3
 url = "mailto:nnyvandal@outlook.com"
 
