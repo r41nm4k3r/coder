@@ -116,28 +116,16 @@ weight = 1
 url = "https://github.com/r41nm4k3r"
 
 [[params.social]]
-name = "Gitlab"
-icon = "fa fa-2x fa-gitlab"
+name = "LinkedIn"
+icon = "fa fa-2x fa-linkedin"
 weight = 2
 url = "#"
 
 [[params.social]]
-name = "Twitter"
-icon = "fa fa-2x fa-twitter"
+name = "Email"
+icon = "fa fa-2x fa-send"
 weight = 3
-url = "#"
-
-[[params.social]]
-name = "LinkedIn"
-icon = "fa fa-2x fa-linkedin"
-weight = 4
-url = "#"
-
-[[params.social]]
-name = "Medium"
-icon = "fa fa-2x fa-medium"
-weight = 5
-url = "#"
+url = "mailto:nnyvandal@outlook.com"
 
 [[params.social]]
 name = "RSS"
