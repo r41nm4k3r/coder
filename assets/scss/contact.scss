@@ -25,10 +25,10 @@ html, body, form, span, h1 {
 form {
 font-family: 'Roboto', sans-serif;
 width: $width + 60px;
-margin: 100px auto 0;
-margin-bottom: -80px;
-box-shadow: 5px 5px 5px 1px rgb(85, 85, 85);
-padding: 0 0 40px;
+margin: 10px auto 0;
+margin-bottom: -120px;
+/* box-shadow: 5px 5px 5px 1px rgb(85, 85, 85); */
+padding: 0 0 10px;
 border-radius: 3px;
 color: $text;
 position: relative;
