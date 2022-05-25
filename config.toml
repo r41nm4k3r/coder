@@ -175,9 +175,9 @@ description = "Προσωπικο μου blog"
 keywords = "blog,personal,tech"
 
 [[languages.el.menu.main]]
-name = "Ποιος είμαι"
+name = "Bio"
 weight = 1
-url = "about/"
+url = "bio/"
 
 [[languages.el.menu.main]]
 name = "Blog"
