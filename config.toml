@@ -19,8 +19,8 @@ enableEmoji = true
 author = "NnyX"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Nnyx's personal website"
-keywords = "blog,developer,personal"
-info = ["System Engineer, DevOps, Hobbyist"]
+keywords = "blog,developer,personal,sysadmin"
+info = ["SysAdmin, I.T., Linux Hobbyist"]
 avatarurl = "images/avatar.png"
 #gravatar = "john.doe@example.com"
 favicon_32 = "img/favicon-32x32.png"
