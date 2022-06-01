@@ -2,6 +2,7 @@
   <section class="container">
     <a class="hover-underline-animation" href="{{ .Site.BaseURL | relLangURL }}">
       {{ .Site.Title }}
+    <span class="blinking-cursor">__</span>
     </a>
     {{ if or .Site.Menus.main .Site.IsMultiLingual }}
       <input type="checkbox" id="menu-toggle" />
