@@ -171,6 +171,7 @@ title = "NnyX"
 [languages.el.params]
 author = "NnyX"
 info = "SysAdmin, I.T., Linux Hobbyist"
+avatarurl = "images/avatar_alt.png"
 description = "Προσωπικο μου blog"
 keywords = "blog,personal,tech"
 
