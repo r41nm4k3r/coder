@@ -140,7 +140,7 @@ languageName = ":uk:"
 title = "NnyX"
 
 [[languages.en.menu.main]]
-name = "/Bio"
+name = "#whoami"
 weight = 1
 url = "bio/"
 
