@@ -3,7 +3,7 @@
 min = "0.77.0"
 
 baseURL = "https://example.com/"
-title = "NnyX"
+title = ">NnyX"
 theme = "coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -137,36 +137,36 @@ type = "application/rss+xml"
 
 [languages.en]
 languageName = ":uk:"
-title = "NnyX"
+title = ">NnyX"
 
 [[languages.en.menu.main]]
-name = "Bio"
+name = "/Bio"
 weight = 1
 url = "bio/"
 
 [[languages.en.menu.main]]
-name = "Blog"
+name = "/Blog"
 weight = 2
 url = "posts/"
 
 [[languages.en.menu.main]]
-name = "Projects"
+name = "/Projects"
 weight = 3
 url = "projects/"
 
 [[languages.en.menu.main]]
-name = "My Music"
+name = "/My Music"
 weight = 4
 url = "music/"
 
 [[languages.en.menu.main]]
-name = "Contact me"
+name = "/Contact me"
 weight = 5
 url = "contact/"
 
 [languages.el]
 languageName = ":greece:"
-title = "NnyX"
+title = ">NnyX"
 
 [languages.el.params]
 author = "NnyX"
@@ -176,26 +176,26 @@ description = "Προσωπικο μου blog"
 keywords = "blog,personal,tech"
 
 [[languages.el.menu.main]]
-name = "Bio"
+name = "#whoami"
 weight = 1
 url = "bio/"
 
 [[languages.el.menu.main]]
-name = "Blog"
+name = "/Blog"
 weight = 2
 url = "posts/"
 
 [[languages.el.menu.main]]
-name = "Projects"
+name = "/Projects"
 weight = 3
 url = "projects/"
 
 [[languages.el.menu.main]]
-name = "Η Μουσική Μου"
+name = "/Η Μουσική Μου"
 weight = 4
 url = "music/"
 
 [[languages.el.menu.main]]
-name = "Επικοινωνία"
+name = "/Επικοινωνία"
 weight = 5
 url = "contact/"
