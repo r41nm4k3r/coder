@@ -1,8 +1,7 @@
 +++
 author = "Nny"
-title = "Build your own Linux usb security key"
+title = "Φτιάξε το δικό σου Linux usb security key"
 date = "2022-11-01"
-description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
 tags = [
     "linux",
     "usb",
@@ -17,22 +16,23 @@ categories = [
 +++
 <!--more-->
 
-## Requirements
+## Απαιτήσεις
 
 * Software
-  * A Linux distro
+  * Μια Linux διανομή
   * Pam_usb
-  * Root privilleges or Sudo
+  * Δικαιώματα Root ή Sudo
 * Hardware
-  * A common usb flash drive or Memory Card (no need for specific storage capacity)
+  * Ένα κοινό usb flash drive ή Memory Card (δεν μας ενδιαφέρει η χωριτικότητα)
 
 
 
-## Intro
+## Εισαγωγή
 
-Recently a friend of mine, that works in a corporate environment, asked me if there is a way to lock or unlock his workstation when takes a break, but without using a password since he suspects that one of his collegues is watching every time he types something.
+Πρόσφατα ένας φίλος μου, ο οποίος δουλευει σε εταιρικό περιβάλλον, με ρώτησε αν υπάρχει τρόπος να κλειδώνει και να ξεκλειδώνει τον υπολογιστή
+του οταν κανει διαλλειμα, χωρις να πληκτρολογει το password του καθως υποψιάζεται οτι κάποιος συνάδελφός του τον παρακολουθεί καθε φορα που πληκτορλογεί.
 
-The solution is pretty simple and free. A **usb security key** using the **pam_usb module**.
+Η λύση είναι αρκετά απλή. Ένα **usb security key** χρησιμοποιόντας το **pam_usb module**.
 
 Before we start building our usb security key we need to ensure that we have all the necessary software and hardware. 
 
