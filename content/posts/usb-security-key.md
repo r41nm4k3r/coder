@@ -48,7 +48,7 @@ There are 2 ways to install pam_usb on your system. You can either build it from
 
 In order to install pam_usb using package manager go to Mcdope's [page](https://apt.mcdope.org/) and download the latest libpam-usb binary from the list.
 
-You can also add the mcdope repo on your system. Just edit /etc/apt/sources.list and add the following line at the end of the file:
+You can also add the mcdope repo on your system. Just edit **/etc/apt/sources.list** and add the following line at the end of the file:
 
 ```bash
 deb https://apt.mcdope.org/ ./
@@ -105,7 +105,7 @@ Save to /etc/security/pam_usb.conf? [Y/n]
 If this is the device you want to use, hit Y and press enter.
 If there are multiple devices detected then choose the one you would like to use.
 
-Next we add the user to the pam_usb configuration. This can be done either manually by editing the pam_usb.conf file or automatically by using again the pam_usb-conf tool:
+Next we add the user to the pam_usb configuration. This can be done either manually by editing the **pam_usb.conf** file or automatically by using again the pam_usb-conf tool:
 
 ```bash
 sudo pamusb-conf --add-user USERNAME
