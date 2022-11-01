@@ -56,6 +56,17 @@ deb https://apt.mcdope.org/ ./
 
 BE CAREFUL!!! There is a space before the dot and slash at the end of the line.
 
+Next we should import the GPG key:
+
+```bash
+sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 913558C8A5E552A7
+```
+Finally update system repo and install pam_usb:
+
+```bash
+sudo apt update && sudo apt install libpam-usb -y
+```
+
 ## Identify usb drive
 
 First we need to identify our usb flash drive. I order to do so open a terminal and run:

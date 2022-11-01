@@ -29,32 +29,43 @@ categories = [
 
 ## Εισαγωγή
 
-Πρόσφατα ένας φίλος μου, ο οποίος δουλευει σε εταιρικό περιβάλλον, με ρώτησε αν υπάρχει τρόπος να κλειδώνει και να ξεκλειδώνει τον υπολογιστή
-του οταν κανει διαλλειμα, χωρις να πληκτρολογει το password του καθως υποψιάζεται οτι κάποιος συνάδελφός του τον παρακολουθεί καθε φορα που πληκτορλογεί.
+Πρόσφατα ένας φίλος μου, ο οποίος δουλεύει σε εταιρικό περιβάλλον, με ρώτησε αν υπάρχει τρόπος να κλειδώνει και να ξεκλειδώνει τον υπολογιστή
+του οταν κανει διάλειμμα, χωρις να πληκτρολογει το password του καθως υποψιάζεται οτι κάποιος συνάδελφός του τον παρακολουθεί καθε φορα που πληκτρολογεί.
 
 Η λύση είναι αρκετά απλή. Ένα **usb security key** χρησιμοποιόντας το **pam_usb module**.
 
-Before we start building our usb security key we need to ensure that we have all the necessary software and hardware. 
+Πριν ξεκινήσουμε πρέπει πρώτα να βεβαιωθούμε οτι έχουμε ολα τα απαραίτητα εργαλεία. 
 
-In this guide we use pam_usb on Debian 11 Gnome/GDM (works on all major distros as well) and a card reader with a 2Gb memory card. Feel free to use any usb flash drive or memory card you like as long as you have write permissions on the storage medium. 
+Σε αυτόν τον οδηγό θα χρησιμοποιήσουμε το pam_usb module σε Debian 11 με Gnome και GDM. (Υποστηρίζεται απο όλες τις βασικές διανομές) και έναν card reader με μια καρτα μνήμης των 2Gb. Μπορείτε να χρησιμοποιησετε οποιο άλλο αποθηκευτικό μέσο θέλετε αρκεί το συστημά σας να έχει δυνατότητα εγγραφής σε αυτό. 
 
+## Εγκατάσταση του pam_usb
 
+Το Pam_usb είναι PAM module που μας επιτρέπει να χρησιμοποιούμε έλεγχο ταυτότητας υλικού χρησιμοποιώντας ένα κανονικό flash drive USB ή μια κάρτα SD. Εφόσον ο αρχικός προγραμματιστής σταμάτησε την περαιτέρω ανάπτυξη, θα χρησιμοποιήσουμε το fork του Mcdope που είναι ένα αρκετά ενεργό έργο.
 
-## Install pam_usb
-
-Pam_usb is a PAM module that allow us to use hardware authentication using a regular usb flash dirve or an sd card. Since the original developer stopped further development we will use the Mcdope fork which is a pretty active project.
-
-There are 2 ways to install pam_usb on your system. You can either build it from the source or use your distro package manager. I use the latter as it s easier but either is fine.
+Υπάρχουν 2 τρόποι για να εγκαταστήσετε το pam_usb στο σύστημά σας. Μπορείτε είτε να το δημιουργήσετε από την πηγή είτε να χρησιμοποιήσετε τον διαχειριστή πακέτων διανομής. Χρησιμοποιώ το δεύτερο καθώς είναι πιο εύκολο, αλλά όποιο απο τα δυο και να επιλέξετε είναι εντάξει.
 
 In order to install pam_usb using package manager go to Mcdope's [page](https://apt.mcdope.org/) and download the latest libpam-usb binary from the list.
 
-You can also add the mcdope repo on your system. Just edit /etc/apt/sources.list and add the following line at the end of the file:
+Για να εγκαταστήσετε το pam_usb χρησιμοποιώντας το διαχείριστη πακέτων, μεταβείτε στη [σελίδα] του Mcdope (https://apt.mcdope.org/) και κατεβάστε το πιο πρόσφατο αρχείο libpam-usb από τη λίστα.
+
+Μπορείτε επίσης να προσθέσετε το repo του ΜcΔope στο σύστημά σας. Απλώς επεξεργαστείτε το **/etc/apt/sources.list** και προσθέστε την ακόλουθη γραμμή στο τέλος του αρχείου:
 
 ```bash
 deb https://apt.mcdope.org/ ./
 ```
 
-BE CAREFUL!!! There is a space before the dot and slash at the end of the line.
+ΠΡΟΣOXH!!! Υπάρχει ένα κενό πριν από την τελεία και την κάθετο στο τέλος της γραμμής.
+
+Στη συνέχεια εισάγουμε το signature key δίνοντας την εντολή:
+
+```bash
+sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 913558C8A5E552A7
+```
+Τέλος κάνουμε update τα repo του συστήματος και υστερα εγκαθιστουμε το pam_usb:
+
+```bash
+sudo apt update && sudo apt install libpam-usb -y
+```
 
 ## Identify usb drive
 
