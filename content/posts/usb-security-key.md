@@ -46,7 +46,6 @@ Pam_usb is a PAM module that allow us to use hardware authentication using a reg
 
 #### Features:
 
-
 *    <kbd>Password-less authentication</kbd>. Use your removable media for authentication, don't type passwords anymore (or add a second factor).
 *    <kbd>Device auto probing</kbd>. You don't need to mount the device, or even to configure the device location (sda1, sdb1, etc). pam_usb.so will automatically locate the device using UDisks and access its data by itself.
 *    <kbd>Two-factor authentication</kbd>. Archive greater security by requiring both the removable media and the password to authenticate the user.
