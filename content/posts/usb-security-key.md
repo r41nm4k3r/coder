@@ -30,7 +30,7 @@ categories = [
 
 ## Intro
 
-Recently a friend of mine, that works in a corporate environment, asked me if there is a way to lock or unlock his workstation when takes a break, but without using a password since he suspects that one of his collegues is watching every time he types something.
+Recently a friend of mine, that works in a corporate environment, asked me if there is a way to lock or unlock his workstation when he takes a break, but without using a password since he suspects that one of his collegues is watching every time he types something.
 
 The solution is pretty simple and free. A **usb security key** using the **pam_usb module**.
 
