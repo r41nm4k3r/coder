@@ -56,7 +56,7 @@ deb https://apt.mcdope.org/ ./
 
 ΠΡΟΣOXH!!! Υπάρχει ένα κενό πριν από την τελεία και την κάθετο στο τέλος της γραμμής.
 
-Στη συνέχεια εισάγουμε το signature key δίνοντας την εντολή:
+Στη συνέχεια εισάγουμε το GPG key δίνοντας την εντολή:
 
 ```bash
 sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 913558C8A5E552A7

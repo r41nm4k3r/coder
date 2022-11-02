@@ -1,6 +1,6 @@
 +++
 author = "Nny"
-title = "Build your own Linux usb security key"
+title = "Create your own Linux usb security key"
 date = "2022-11-01"
 description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
 tags = [
