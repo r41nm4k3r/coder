@@ -44,6 +44,20 @@ In this guide we use pam_usb on Debian 11 Gnome/GDM (works on all major distros 
 
 Pam_usb is a PAM module that allow us to use hardware authentication using a regular usb flash dirve or an sd card. Since the original developer stopped further development we will use the Mcdope fork which is a pretty active project.
 
+#### Features:
+
+
+*    <kbd>Password-less authentication</kbd>. Use your removable media for authentication, don't type passwords anymore (or add a second factor).
+*    <kbd>Device auto probing</kbd>. You don't need to mount the device, or even to configure the device location (sda1, sdb1, etc). pam_usb.so will automatically locate the device using UDisks and access its data by itself.
+*    <kbd>Two-factor authentication</kbd>. Archive greater security by requiring both the removable media and the password to authenticate the user.
+*    <kbd>Non-intrusive</kbd>. pam_usb doesn't require any modifications of the USB storage device to work (no additional partitions required).
+*    USB Serial number, model and vendor verification.
+*    Support for <kbd>One Time Pads</kbd> authentication.
+*    You can use the same device across multiple machines.
+*    Support for all kind of removable devices (SD, MMC, etc).
+*    Can optionally unlock your GNOME keyring
+
+
 There are 2 ways to install pam_usb on your system. You can either build it from the source or use your distro package manager. I use the latter as it s easier but either is fine.
 
 In order to install pam_usb using package manager go to Mcdope's [page](https://apt.mcdope.org/) and download the latest libpam-usb binary from the list.
