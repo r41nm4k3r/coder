@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono|Inconsolata|Raleway');
+
+
+//INTERESTING STUFF
+
+h3{
+  //steps splits the animation into little animations
+  //character count is 28
+  animation:type 2s steps(20), blink2 .5s infinite alternate;
+  overflow:hidden; //Hide the overflow of the element
+  white-space:nowrap; //avoid breaking into new lines
+  width:13ch; //ch is the width of each characters (0) works great with monospace
+  border-right:3px solid;
+  font-family: 'Cantarell';
+  font-size: 32px;
+  padding-bottom: 10px;
+  /*For non-monospace fonts you need to hard code the width
+  font-family: 'Raleway', sans-serif;
+  width:374px; //width of the font*/
+
+  
+}
+
+@keyframes type{
+  from{
+    width:0;
+  }
+}
+
+@keyframes blink2{
+  50%{
+    border-color:transparent;
+  }
+}
+
+
+.fadeIn{
+  animation: fadeIn 1s;
+  animation-fill-mode:both;
+  
+}
+
+.wait-2s{
+  animation-delay:2s;
+}
+.wait-3s{
+  animation-delay:3s;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
+}
+
+
+
