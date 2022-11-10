@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono|Inconsolata|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Red+Hat:wght@400');
 
 
 //INTERESTING STUFF
@@ -12,8 +13,9 @@ h3{
   white-space:nowrap; //avoid breaking into new lines
   width:13ch; //ch is the width of each characters (0) works great with monospace
   border-right:3px solid;
-  font-family: 'Cantarell';
-  font-size: 32px;
+  font-family: 'Red Hat' monospace;
+  font-size: 36px;
+  font-weight: 400;
   padding-bottom: 10px;
   /*For non-monospace fonts you need to hard code the width
   font-family: 'Raleway', sans-serif;
