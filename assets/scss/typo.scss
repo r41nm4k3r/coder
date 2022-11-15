@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono|Inconsolata|Raleway');
 @import url('https://fonts.googleapis.com/css?family=Red+Hat:wght@400');
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento");
+
 
 h6{
   //steps splits the animation into little animations
@@ -10,9 +12,10 @@ h6{
   white-space:nowrap; //avoid breaking into new lines
   width:18ch; //ch is the width of each characters (0) works great with monospace
   border-right:3px solid;
+  font-family: "Comfortaa" monospace;
   font-weight: 400;
   font-size: 36px;
-  margin-top: 10px;
+  padding-top: 10px;
   padding-bottom: 10px;
   /*For non-monospace fonts you need to hard code the width
   font-family: 'Raleway', sans-serif;
