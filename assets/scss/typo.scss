@@ -8,7 +8,7 @@ h6{
   animation:type 2s steps(20), blink2 .5s infinite alternate;
   overflow:hidden; //Hide the overflow of the element
   white-space:nowrap; //avoid breaking into new lines
-  width:18ch; //ch is the width of each characters (0) works great with monospace
+  width:24ch; //ch is the width of each characters (0) works great with monospace
   border-right:3px solid;
   font-family: 'Comfortaa', monospace;
   font-weight: 400;
