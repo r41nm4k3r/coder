@@ -6,6 +6,8 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Red+Hat:wght@400");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento");
 html {
   line-height: 1.15;
   /* 1 */
@@ -3351,9 +3353,6 @@ figure {
   justify-content: center; }
   .centered .about {
     text-align: center; }
-    .centered .about h1 {
-      margin-top: 2rem;
-      margin-bottom: 0.5rem; }
     .centered .about h2 {
       margin-top: 1rem;
       margin-bottom: 0.5rem;
@@ -3653,6 +3652,175 @@ figure {
       left: 50%;
       transform: translate(-50%, -50%); }
 
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.player {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center; }
+
+.details {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center; }
+
+.track-art {
+  margin: 25px;
+  height: 250px;
+  width: 250px;
+  border: 2px solid #fff;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  -moz-box-shadow: 0px 6px 5px #ccc;
+  -webkit-box-shadow: 0px 6px 5px #ccc;
+  box-shadow: 0px 6px 5px #ccc;
+  -moz-border-radius: 190px;
+  -webkit-border-radius: 190px;
+  border-radius: 190px; }
+
+.now-playing {
+  font-size: 1rem; }
+
+.track-name {
+  font-size: 2.5rem; }
+
+.track-artist {
+  margin-top: 5px;
+  font-size: 1.5rem; }
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+.active {
+  color: black; }
+
+.repeat-track,
+.random-track,
+.playpause-track,
+.prev-track,
+.next-track {
+  padding: 25px;
+  opacity: 0.8;
+  transition: opacity .2s; }
+
+.repeat-track:hover,
+.random-track:hover,
+.playpause-track:hover,
+.prev-track:hover,
+.next-track:hover {
+  opacity: 1.0; }
+
+.slider_container {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.seek_slider,
+.volume_slider {
+  height: 0.5px;
+  background: #fefefe;
+  -webkit-transition: .2s;
+  transition: opacity .2s; }
+
+.seek_slider::-webkit-slider-thumb,
+.volume_slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 5px;
+  height: 5px;
+  background: #fefefe;
+  border: 1px solid #fefefe;
+  cursor: pointer;
+  border-radius: 10%; }
+
+.seek_slider:hover,
+.volume_slider:hover {
+  opacity: 1.0; }
+
+.seek_slider {
+  width: 50%; }
+
+.volume_slider {
+  width: 30%; }
+
+.current-time,
+.total-duration {
+  padding: 10px; }
+
+i.fa-volume-down,
+i.fa-volume-up {
+  padding: 0px; }
+
+i,
+i.fa-play-circle,
+i.fa-pause-circle,
+i.fa-step-forward,
+i.fa-step-backward {
+  cursor: pointer; }
+
+.randomActive {
+  color: black; }
+
+.rotate {
+  animation: rotation 8s infinite linear; }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(359deg); } }
+
+.loader {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.loader .stroke {
+  background: #f1f1f1;
+  height: 150%;
+  width: 10px;
+  border-radius: 10px;
+  margin: 0px 5px;
+  animation: animate 1.4s linear infinite; }
+
+@keyframes animate {
+  50% {
+    height: 20%;
+    background: #fefefe; }
+  100% {
+    height: 100%; } }
+
+.stroke:nth-child(1) {
+  animation-delay: 0s; }
+
+.stroke:nth-child(2) {
+  animation-delay: 0.3s; }
+
+.stroke:nth-child(3) {
+  animation-delay: 0.6s; }
+
+.stroke:nth-child(4) {
+  animation-delay: 0.9s; }
+
+.stroke:nth-child(5) {
+  animation-delay: 0.6s; }
+
+.stroke:nth-child(6) {
+  animation-delay: 0.3s; }
+
+.stroke:nth-child(7) {
+  animation-delay: 0s; }
+
 html, body {
   overflow-x: hidden; }
 
@@ -3862,5 +4030,47 @@ i {
     color: transparent; }
   50% {
     color: black; } }
+
+h6 {
+  animation: type 2s steps(20), blink2 0.5s infinite alternate;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 18ch;
+  border-right: 3px solid;
+  font-family: "Comfortaa" monospace;
+  font-weight: 400;
+  font-size: 36px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /*For non-monospace fonts you need to hard code the width
+  font-family: 'Raleway', sans-serif;
+  width:374px; //width of the font*/ }
+
+@keyframes type {
+  from {
+    width: 0; } }
+
+@keyframes blink2 {
+  50% {
+    border-color: transparent; } }
+
+.fadeIn {
+  animation: fadeIn 1s;
+  animation-fill-mode: both; }
+
+.wait-2s {
+  animation-delay: 2s; }
+
+.wait-3s {
+  animation-delay: 3s; }
+
+.wait-4s {
+  animation-delay: 4s; }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 
 /*# sourceMappingURL=coder.css.map */

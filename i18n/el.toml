@@ -19,7 +19,7 @@ other = "posts"
 
 [reading_time]
 one = "Διάβασμα ενος λεπτού"
-other = "{{ .Count }}-minute read"
+other = "{{ .Count }}-λαπτά διάβασμα"
 
 [page_not_found]
 other = "Η σελίδα δεν βρέθηκε"
@@ -59,3 +59,6 @@ other = "προειδοποίηση"
 
 [error]
 other = "σφάλμα"
+
+[Welcome_to]
+other = "Καλώς ήρθατε στο"

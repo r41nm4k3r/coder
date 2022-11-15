@@ -1,8 +1,8 @@
 $base-font-size: 12pt;
 $base-font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif;
 
-$player-background-normal: #fff;
-$player-background-inverse: #434546;
+$player-background-normal: #fefefe;
+$player-background-inverse: #000;
 $player-background-highlight: #46aaff;
 $player-text-normal: #434546;
 $player-text-inverse: #fefefe;
@@ -11,18 +11,18 @@ $player-text-white: #fefefe;
 $player-text-light: #888;
 
 $playlist-track-border: 1px solid #e4e4e4;
-$playlist-background-normal: #f4f4f4;
+$playlist-background-normal: #fefefe;
 $playlist-background-selected: #eee;
 $playlist-background-hover: #eee;
-$playlist-text-normal: #434546;
+$playlist-text-normal: #fefefe;
 $playlist-text-selected: #46aaff;
 $playlist-text-hover: #434546;
 
-$dark-player-background-normal: #333;
-$dark-player-background-inverse: #888;
-$dark-player-background-highlight: #46aaff;
+$dark-player-background-normal: #000;
+$dark-player-background-inverse: #000;
+$dark-player-background-highlight: #000;
 $dark-player-text-normal: #fefefe;
-$dark-player-text-inverse: #fefefe;
+$dark-player-text-inverse: #000;
 $dark-player-text-highlight: #46aaff;
 $dark-player-text-white: #fefefe;
 $dark-player-text-light: #888;
@@ -39,7 +39,7 @@ $dark-playlist-text-hover: #fefefe;
 * {
   -webkit-tap-highlight-color: transparent;
 }
-span, p, a, ol, li, audio, :before, :after {
+audio, :before, :after {
   box-sizing: border-box;
   border: 0;
   font: inherit;
@@ -84,11 +84,11 @@ a[href]:visited, a[href]:focus, a[href]:hover {
 /* Audio Player */
 .player-wrap {
   position: relative;
-  margin: 0 auto;
+  margin: 10 auto;
   padding: 0;
   min-width: 250px;
   overflow: hidden;
-  background: $player-background-normal none no-repeat center center;
+  background: #fefefe00 none no-repeat center center;
   background-size: cover;
   font-family: $base-font-family;
   line-height: 1.5em;
@@ -101,8 +101,8 @@ a[href]:visited, a[href]:focus, a[href]:hover {
   svg {
     position: relative;
     margin: 20%;
-    width: 10%;
-    height: 10%;
+    width: 60%;
+    height: 60%;
     fill: currentColor;
   }
   .player {
@@ -156,7 +156,7 @@ a[href]:visited, a[href]:focus, a[href]:hover {
     color: $player-text-inverse;
     .big-play-button:before,
     .big-pause-button:before {
-      background-color: rgba(0,0,0,0.6);
+      background-color: rgba(255, 0, 0, 0.6);
     }
     &:hover .big-play-button:before,
     &:hover .big-pause-button:before {
@@ -234,14 +234,14 @@ a[href]:visited, a[href]:focus, a[href]:hover {
     width: 100%;
     height: 350px;
     overflow: hidden;
-    color: $playlist-text-normal;
+    color: #fefefe00;
     h2 {
       position: absolute;
       left: 0;
       top: 6em;
       padding: 0 1em;
       width: 100%;
-      background-color: $playlist-background-normal;
+      background-color: #fefefe00;
       line-height: 0px;
       font-weight: bold;
       font-size: 1.2em;
@@ -250,7 +250,7 @@ a[href]:visited, a[href]:focus, a[href]:hover {
       display: block;
       height: 100%;
       overflow: auto;
-      background-color: $playlist-background-normal;
+      background-color: #fefefe00;
       counter-reset: track-counter;
       list-style: none inside;
     }
@@ -324,22 +324,8 @@ a[href]:visited, a[href]:focus, a[href]:hover {
     background: $player-background-inverse;
     background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 20%,rgba(0,0,0,0.55) 50%,rgba(0,0,0,0.6) 100%);
   }
-  .big-play-pause {
-    position: absolute;
-    left: 50%;
-    bottom: 50%;
-    display: block;
-    margin: 0 0 -13% -13%;
-    width: 26%;
-    height: 26%;
-  }
-  &.list-view .big-play-pause,
-  .play-pause,
-  .prev-button,
-  .next-button,
-  .playlist-button {
-    display: none;
-  }
+
+
   &.list-view {
     background-position: center top;
     background-size: 100% auto;
@@ -369,7 +355,7 @@ a[href]:visited, a[href]:focus, a[href]:hover {
       padding: 2.5em 6% 0;
       width: 100%;
       height: 5em;
-      background: $player-background-normal none;
+      background: #fefefe00 none;
       color: $player-text-normal;
       border-radius: 1em 1em 0 0;
     }
