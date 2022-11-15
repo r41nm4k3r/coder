@@ -3,7 +3,7 @@
 min = "0.77.0"
 
 baseURL = "https://example.com/"
-title = "NnyX"
+title = ">NnyX"
 theme = "coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -20,7 +20,7 @@ author = "NnyX"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Nnyx's personal website"
 keywords = "blog,developer,personal,sysadmin"
-#info = "SysAdmin I.T. Linux"
+#info = ["SysAdmin I.T. Linux"]
 avatarurl = "images/avatar.png"
 #gravatar = "john.doe@example.com"
 favicon_32 = "img/favicon-32x32.png"
@@ -38,7 +38,6 @@ rtl = false
 colorScheme = "auto"
 # Hide the toggle button, along with the associated vertical divider
 hideColorSchemeToggle = false
-
 # Series see also post count
 maxSeeAlsoItems = 5
 # Custom CSS
