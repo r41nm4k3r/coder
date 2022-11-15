@@ -8,7 +8,7 @@
     {{ with .Site.Params.gravatar }}
       <div class="avatar"><img src="https://www.gravatar.com/avatar/{{md5 .}}?s=240&d=mp" alt="gravatar"></div>
     {{ end }}
-    <h2>{{ partial "typo.html" }}</h2>
+    <h6>{{ partial "typo.html" }}</h6>
     {{ if reflect.IsSlice .Site.Params.info }}
     <h2>{{ range .Site.Params.info }}{{.}}<br>{{ end}}</h2>
     {{ else }}

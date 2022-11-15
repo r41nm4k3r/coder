@@ -2,10 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono|Inconsolata|Raleway');
 @import url('https://fonts.googleapis.com/css?family=Red+Hat:wght@400');
 
-
-//INTERESTING STUFF
-
-h1{
+h6{
   //steps splits the animation into little animations
   //character count is 28
   animation:type 2s steps(20), blink2 .5s infinite alternate;
@@ -13,8 +10,9 @@ h1{
   white-space:nowrap; //avoid breaking into new lines
   width:18ch; //ch is the width of each characters (0) works great with monospace
   border-right:3px solid;
-  font-size: 36px;
+  font-family: 'Red Hat' monospace;
   font-weight: 400;
+  font-size: 36px;
   margin-top: 10px;
   padding-bottom: 10px;
   /*For non-monospace fonts you need to hard code the width
@@ -48,6 +46,9 @@ h1{
 }
 .wait-3s{
   animation-delay:3s;
+}
+.wait-4s{
+  animation-delay:4s;
 }
 
 @keyframes fadeIn{
