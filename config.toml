@@ -240,13 +240,13 @@ url = "contact/"
       autoHeadingIDType = 'github'
       wrapStandAloneImageWithinParagraph = true
       [markup.goldmark.parser.attribute]
-        block = false
+        block = true
         title = true
     [markup.goldmark.renderHooks]
       [markup.goldmark.renderHooks.image]
-        enableDefault = false
+        enableDefault = true
       [markup.goldmark.renderHooks.link]
-        enableDefault = false
+        enableDefault = true
 
     [markup.goldmark.renderer]
       unsafe = true
