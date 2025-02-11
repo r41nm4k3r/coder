@@ -221,17 +221,17 @@ url = "contact/"
         escapedSpace = false
       [markup.goldmark.extensions.extras]
         [markup.goldmark.extensions.extras.delete]
-          enable = false
+          enable = true
         [markup.goldmark.extensions.extras.insert]
-          enable = false
+          enable = true
         [markup.goldmark.extensions.extras.mark]
-          enable = false
+          enable = true
         [markup.goldmark.extensions.extras.subscript]
-          enable = false
+          enable = true
         [markup.goldmark.extensions.extras.superscript]
-          enable = false
+          enable = true
       [markup.goldmark.extensions.passthrough]
-        enable = false
+        enable = true
         [markup.goldmark.extensions.passthrough.delimiters]
           block = []
           inline = []
