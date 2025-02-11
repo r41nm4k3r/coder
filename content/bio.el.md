@@ -18,14 +18,14 @@ author = "Hugo Authors"
 </div>
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2rem;">
-  <div style="background-color: #f5f6fa; padding: 1.5rem; border-radius: 10px;">
+  <div style="background-color: #2D3436; padding: 1.5rem; border-radius: 10px;">
     📧 **john.doe@email.com**  
     📱 +1 234 567 890  
     📍 New York, USA  
     🌐 [portfolio.johndoe.com](https://portfolio.johndoe.com)
   </div>
   
-  <div style="background-color: #f5f6fa; padding: 1.5rem; border-radius: 10px;">
+  <div style="background-color: #2D3436; padding: 1.5rem; border-radius: 10px;">
     💼 [LinkedIn](https://linkedin.com/in/johndoe)  
     🐙 [GitHub](https://github.com/johndoe)  
     🐦 [Twitter](https://twitter.com/johndoe)  
