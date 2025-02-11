@@ -34,7 +34,7 @@ author = "Hugo Authors"
 
 ## 🛠 Technical Skills
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 0.5rem; margin-bottom: 2rem;">
 
 ### **Linux Administration**
 - RedHat/CentOS/Ubuntu
