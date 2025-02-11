@@ -34,31 +34,49 @@ author = "Hugo Authors"
 
 ## 🛠 Technical Skills
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 0.5rem; margin-bottom: 2rem;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
 
-### **Linux Administration**
-- RedHat/CentOS/Ubuntu
-- Bash Scripting
-- LAMP/LEMP Stacks
-- Docker & Kubernetes
-- AWS & Google Cloud
-- Ansible & Terraform
+<div style="background: linear-gradient(145deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+  <h3 style="color: #74b9ff; margin-top: 0; display: flex; align-items: center; gap: 0.5rem;">
+    🐧 Linux Administration
+  </h3>
+  <ul style="columns: 2; list-style: none; padding-left: 0; margin: 0;">
+    <li style="margin-bottom: 0.5rem;">▹ RedHat/CentOS/Ubuntu</li>
+    <li style="margin-bottom: 0.5rem;">▹ Bash Scripting</li>
+    <li style="margin-bottom: 0.5rem;">▹ LAMP/LEMP Stacks</li>
+    <li style="margin-bottom: 0.5rem;">▹ Docker & Kubernetes</li>
+    <li style="margin-bottom: 0.5rem;">▹ AWS & Google Cloud</li>
+    <li style="margin-bottom: 0.5rem;">▹ Ansible & Terraform</li>
+  </ul>
+</div>
 
-### **Web Development**
-- WordPress Customization
-- PHP & Python
-- HTML5/CSS3/JavaScript
-- REST API Integration
-- MySQL/MariaDB
-- Nginx/Apache Optimization
+<div style="background: linear-gradient(145deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+  <h3 style="color: #74b9ff; margin-top: 0; display: flex; align-items: center; gap: 0.5rem;">
+    🌐 Web Development
+  </h3>
+  <ul style="columns: 2; list-style: none; padding-left: 0; margin: 0;">
+    <li style="margin-bottom: 0.5rem;">▹ WordPress Customization</li>
+    <li style="margin-bottom: 0.5rem;">▹ PHP & Python</li>
+    <li style="margin-bottom: 0.5rem;">▹ HTML5/CSS3/JS</li>
+    <li style="margin-bottom: 0.5rem;">▹ REST API Integration</li>
+    <li style="margin-bottom: 0.5rem;">▹ MySQL/MariaDB</li>
+    <li style="margin-bottom: 0.5rem;">▹ Nginx/Apache</li>
+  </ul>
+</div>
 
-### **DevOps Tools**
-- CI/CD Pipelines
-- Git & GitHub Actions
-- Monitoring (Zabbix, Nagios)
-- Jenkins & Travis CI
-- ELK Stack
-- Security Hardening
+<div style="background: linear-gradient(145deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+  <h3 style="color: #74b9ff; margin-top: 0; display: flex; align-items: center; gap: 0.5rem;">
+    ⚙️ DevOps Tools
+  </h3>
+  <ul style="columns: 2; list-style: none; padding-left: 0; margin: 0;">
+    <li style="margin-bottom: 0.5rem;">▹ CI/CD Pipelines</li>
+    <li style="margin-bottom: 0.5rem;">▹ Git & GitHub Actions</li>
+    <li style="margin-bottom: 0.5rem;">▹ Monitoring Stack</li>
+    <li style="margin-bottom: 0.5rem;">▹ Jenkins & Travis CI</li>
+    <li style="margin-bottom: 0.5rem;">▹ ELK Stack</li>
+    <li style="margin-bottom: 0.5rem;">▹ Security Hardening</li>
+  </ul>
+</div>
 
 </div>
 
