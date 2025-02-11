@@ -24,14 +24,13 @@ author = "Hugo Authors"
     🌐 [portfolio.johndoe.com][(https://portfolio.johndoe.com)]((https://portfolio.johndoe.com))
   </div>
   
-  <div style="background-color: #2D3436; padding: 1.5rem; border-radius: 10px;">
-    📍 **Location:** [Your City, Country]  
+ 
+📍 **Location:** [Your City, Country]  
 📧 **Email:** [your.email@example.com](mailto:your.email@example.com)  
 🔗 **Website:** [yourwebsite.com](https://yourwebsite.com)  
 💼 **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
 🐙 **GitHub:** [github.com/yourgithub](https://github.com/yourgithub)  
-  </div>
-</div>
+
 
 ## 🛠 Technical Skills
 
