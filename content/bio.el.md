@@ -25,10 +25,11 @@ author = "Hugo Authors"
   </div>
   
   <div style="background-color: #2D3436; padding: 1.5rem; border-radius: 10px;">
-    💼 [LinkedIn](https://linkedin.com/in/johndoe)  
-    🐙 [GitHub](https://github.com/johndoe)  
-    🐦 [Twitter](https://twitter.com/johndoe)  
-    📝 [Blog](https://blog.johndoe.com)
+    📍 **Location:** [Your City, Country]  
+📧 **Email:** [your.email@example.com](mailto:your.email@example.com)  
+🔗 **Website:** [yourwebsite.com](https://yourwebsite.com)  
+💼 **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
+🐙 **GitHub:** [github.com/yourgithub](https://github.com/yourgithub)  
   </div>
 </div>
 
