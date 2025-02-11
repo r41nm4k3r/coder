@@ -21,7 +21,7 @@ author = "Hugo Authors"
     📧 **john.doe@email.com**  
     📱 +1 234 567 890  
     📍 New York, USA  
-    🌐 [portfolio.johndoe.com](https://portfolio.johndoe.com)
+    🌐 Portfolio [portfolio.johndoe.com](https://portfolio.johndoe.com)
   </div>
   
   <div style="background-color: #2D3436; padding: 1.5rem; border-radius: 10px;">
