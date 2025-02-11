@@ -6,7 +6,6 @@ aliases = ["about-us", "about-hugo", "contact"]
 author = "Hugo Authors"
 +++
 
-
 <div style="background-color: #2d3436; color: #ffffff; padding: 2rem; border-radius: 15px; margin-bottom: 2rem;">
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
