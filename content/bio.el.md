@@ -29,123 +29,114 @@ author = "Hugo Authors"
  
 🔗 **Website:** [yourwebsite.com](https://yourwebsite.com)  
 💼 **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
-🐙 **GitHub:** [github.com/yourgithub](https://github.com/yourgithub) 
+🐙 **GitHub:** [github.com/yourgithub](https://github.com/r41nm4k3r) 
 
 </div>
 
 ---
 
 ## **👨‍💻 Summary**
-Experienced **Linux System Administrator** and **WordPress Web Developer** with a passion for automation, server optimization, and custom web development. Skilled in maintaining high-performance, secure, and scalable infrastructures. Enthusiastic about DevOps, CI/CD, and cloud technologies.
+Experienced **Linux System Administrator** and **WordPress Web Developer** with a passion for automation, server optimization, and custom web development. Skilled in maintaining high-performance, secure, and scalable infrastructures. Enthusiastic about automation, vitualization, and cloud technologies.
 
 ---
 
-## 🛠 Technical Skills
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-bottom: 2rem;">
-
-<div style="background: var(--card-bg, #1d2b2b); padding: 2rem; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); transition: transform 0.3s ease; color: var(--text-color, #e0f2f1);">
-  <h3 style="margin: 0 0 1.5rem 0; display: flex; align-items: center; gap: 1rem; font-size: 1.4rem;">
-    <span style="font-size: 1.8rem;">🐧</span> Linux Administration
-  </h3>
-  <ul style="columns: 2; list-style: none; padding: 0; margin: 0; column-gap: 2rem;">
-    <li style="margin-bottom: 1rem; display: flex; align-items: start; gap: 0.5rem;">
-      <span style="color: #76ff03;">▹</span> RedHat/CentOS/Ubuntu
-    </li>
-    <li style="margin-bottom: 1rem; display: flex; align-items: start; gap: 0.5rem;">
-      <span style="color: #76ff03;">▹</span> Bash Scripting
-    </li>
-    <li style="margin-bottom: 1rem; display: flex; align-items: start; gap: 0.5rem;">
-      <span style="color: #76ff03;">▹</span> LAMP/LEMP Stacks
-    </li>
-    <li style="margin-bottom: 1rem; display: flex; align-items: start; gap: 0.5rem;">
-      <span style="color: #76ff03;">▹</span> Docker
-    </li>
-    <li style="margin-bottom: 1rem; display: flex; align-items: start; gap: 0.5rem;">
-      <span style="color: #76ff03;">▹</span> Ansible
-    </li>
+## **💡 Technical Skills**
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+  
+  <div class="skill-card">
+    <h3>Linux Administration</h3>
+    <img src="/images/linux.svg" alt="Linux Icon">
+    <p><ul style="columns: 1; list-style: none; padding-left: 0; margin: 0;">
+    <li style="margin-bottom: 0.5rem;">▹ RedHat | Centos | Ubuntu</li>
+    <li style="margin-bottom: 0.5rem;">▹ Linux ARM</li>
+    <li style="margin-bottom: 0.5rem;">▹ L.F.S</li>
   </ul>
-</div>
+  </p>
+  </div>
 
-<div style="background: var(--card-bg, #1d2b2b); padding: 2rem; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); transition: transform 0.3s ease; color: var(--text-color, #e0f2f1);">
-  <h3 style="margin: 0 0 1.5rem 0; display: flex; align-items: center; gap: 1rem; font-size: 1.4rem;">
-    <span style="font-size: 1.8rem;">🌐</span> Web Development
-  </h3>
-  <ul style="columns: 2; list-style: none; padding: 0; margin: 0; column-gap: 2rem;">
-    <li style="margin-bottom: 1rem; display: flex; align-items: start; gap: 0.5rem;">
-      <span style="color: #76ff03;">▹</span> WordPress Customization
-    </li>
-    <li style="margin-bottom: 1rem; display: flex; align-items: start; gap: 0.5rem;">
-      <span style="color: #76ff03;">▹</span> PHP & Python
-    </li>
-    <li style="margin-bottom: 1rem; display: flex; align-items: start; gap: 0.5rem;">
-      <span style="color: #76ff03;">▹</span> HTML5/CSS3/JS
-    </li>
-    <li style="margin-bottom: 1rem; display: flex; align-items: start; gap: 0.5rem;">
-      <span style="color: #76ff03;">▹</span> REST API Integration
-    </li>
-    <li style="margin-bottom: 1rem; display: flex; align-items: start; gap: 0.5rem;">
-      <span style="color: #76ff03;">▹</span> MySQL/MariaDB
-    </li>
-    <li style="margin-bottom: 1rem; display: flex; align-items: start; gap: 0.5rem;">
-      <span style="color: #76ff03;">▹</span> Nginx/Apache/Traefik
-    </li>
-  </ul>
-</div>
+  <div class="skill-card">
+    <h3>Web Development</h3>
+    <img src="/images/web.svg" alt="WordPress Icon">
+    <p><ul style="columns: 1; list-style: none; padding-left: 0; margin: 0;">
+    <li style="margin-bottom: 0.5rem;">▹ WordPress | WooCommerce | Hugo</li>
+    <li style="margin-bottom: 0.5rem;">▹ Website Migration</li>
+    <li style="margin-bottom: 0.5rem;">▹ CPanel | Plesk</li>
+    <li style="margin-bottom: 0.5rem;">▹ MySQL | MariaDB</li>
+    <li style="margin-bottom: 0.5rem;">▹ Nginx | Apache | Traefik</li>
+  </ul></p>
+  </div>
 
-<div style="background: var(--card-bg, #1d2b2b); padding: 2rem; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); transition: transform 0.3s ease; color: var(--text-color, #e0f2f1);">
-  <h3 style="margin: 0 0 1.5rem 0; display: flex; align-items: center; gap: 1rem; font-size: 1.4rem;">
-    <span style="font-size: 1.8rem;">⚙️</span> DevOps Tools
-  </h3>
-  <ul style="columns: 2; list-style: none; padding: 0; margin: 0; column-gap: 2rem;">
-    <li style="margin-bottom: 1rem; display: flex; align-items: start; gap: 0.5rem;">
-      <span style="color: #76ff03;">▹</span> CI/CD Pipelines
-    </li>
-    <li style="margin-bottom: 1rem; display: flex; align-items: start; gap: 0.5rem;">
-      <span style="color: #76ff03;">▹</span> Git & GitHub Actions
-    </li>
-    <li style="margin-bottom: 1rem; display: flex; align-items: start; gap: 0.5rem;">
-      <span style="color: #76ff03;">▹</span> Monitoring Stack
-    </li>
-    <li style="margin-bottom: 1rem; display: flex; align-items: start; gap: 0.5rem;">
-      <span style="color: #76ff03;">▹</span> Jenkins & Travis CI
-    </li>
-    <li style="margin-bottom: 1rem; display: flex; align-items: start; gap: 0.5rem;">
-      <span style="color: #76ff03;">▹</span> ELK Stack
-    </li>
-    <li style="margin-bottom: 1rem; display: flex; align-items: start; gap: 0.5rem;">
-      <span style="color: #76ff03;">▹</span> Security Hardening
-    </li>
-  </ul>
-</div>
+  <div class="skill-card">
+    <h3>Server Management</h3>
+    <img src="/images/server.svg" alt="Server Icon">
+    <p><ul style="columns: 1; list-style: none; padding-left: 0; margin: 0;">
+    <li style="margin-bottom: 0.5rem;">▹ Configuration</li>
+    <li style="margin-bottom: 0.5rem;">▹ Optimization</li>
+    <li style="margin-bottom: 0.5rem;">▹ Migration</li>
+    <li style="margin-bottom: 0.5rem;">▹ Remote Management</li>
+    <li style="margin-bottom: 0.5rem;">▹ Backup & Restore</li>
+  </ul></p>
+  </div>
 
+  <div class="skill-card">
+    <h3>Virtualization</h3>
+    <img src="/images/virtual-machine.svg" alt="Cloud Icon">
+    <p><ul style="columns: 1; list-style: none; padding-left: 0;">
+    <li style="margin-bottom: 0.5rem;">▹ VMware ESXi</li>
+    <li style="margin-bottom: 0.5rem;">▹ Proxmox VE</li>
+    <li style="margin-bottom: 0.5rem;">▹ Docker | Podman</li>
+    <li style="margin-bottom: 0.5rem;">▹ LXC Containers</li>
+  </ul></p>
+  </div>
+
+  <div class="skill-card">
+    <h3>Security & Hardening</h3>
+    <img src="/images/security.svg" alt="Security Icon">
+    <p><ul style="columns: 1; list-style: none; padding-left: 0; margin: 0;">
+    <li style="margin-bottom: 0.5rem;">▹ Firewall Configuration</li>
+    <li style="margin-bottom: 0.5rem;">▹ SSL/TLS Implementation</li>
+    <li style="margin-bottom: 0.5rem;">▹ VPN Configuration</li>
+  </ul></p>
+  </div>
+
+  <div class="skill-card">
+    <h3>Automation</h3>
+    <img src="/images/script.svg" alt="Scripting Icon">
+    <p><ul style="columns: 1; list-style: none; padding-left: 0; margin: 0;">
+    <li style="margin-bottom: 0.5rem;">▹ Bash Scripting</li>
+    <li style="margin-bottom: 0.5rem;">▹ Ansible</li>
+    <li style="margin-bottom: 0.5rem;">▹ Python</li>
+    <li style="margin-bottom: 0.5rem;">▹ Terraform</li>
+  </ul></p>
+  </div>
 </div>
 
 <style>
-@media (prefers-color-scheme: dark) {
-  :root {
-    --card-bg: #2d3436;
-    --text-color: #ffffff;
-  }
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
 }
-
-/* Add hover effect */
-[style*="--card-bg"]:hover {
+.skill-card {
+  background: teal;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  transition: transform 0.3s, background 0.3s;
+}
+.skill-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  background: linear-gradient(135deg, red, grey);
+  color: #fff;
 }
-
-/* Better mobile experience */
-@media (max-width: 768px) {
-  ul {
-    columns: 1 !important;
-  }
-  
-  div[style*="grid-template-columns"] {
-    gap: 1.5rem !important;
-  }
+.skill-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
 }
 </style>
+
 ---
 
 ## **💼 Professional Experience**
@@ -175,10 +166,10 @@ Experienced **Linux System Administrator** and **WordPress Web Developer** with 
 - Implemented CI/CD pipeline reducing deployment time by 70%
 
 ### **WordPress Developer**  
-*Digital Solutions LLC • 2017-2020*  
-- Developed 50+ custom WordPress themes and plugins
+*Freelancer • 2015-2025*  
+- Customized and optimized WordPress themes
 - Improved site performance by 85% through caching optimization
-- Led security audits reducing vulnerabilities by 95%
+- Led security audits reducing vulnerabilities
 
 ---
 
@@ -207,6 +198,7 @@ Experienced **Linux System Administrator** and **WordPress Web Developer** with 
 - Implemented **fail2ban, ModSecurity, and SSL/TLS hardening**.
 
 </div>
+
 ---
 
 ## **🛠 Tools & Technologies**
