@@ -11,9 +11,9 @@ author = "Hugo Authors"
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
       <h1 style="color: #e53935; margin: 0;">Nikolaos Iliopoulos</h1>
-      <p style="margin: 5;font-size:100%;color: #fafafa;"> Linux SysAdmin | DevOps | Web Developer</h3>
+      <p style="margin: 5;font-size:100%;color: #fafafa;"> Linux SysAdmin | Web Developer | DevOps </h3>
     </div>
-    <img src="/images/profile.jpg" style="width: 100px; height: 100px; border-radius: 50%; border: 3px solid #e53935;">
+    <img src="/images/profile.jpeg" style="width: 100px; height: 100px; border-radius: 50%; border: 3px solid #e53935;">
   </div>
 </div>
 
@@ -167,6 +167,7 @@ Experienced **Linux System Administrator** and **WordPress Web Developer** with 
 
 ### **WordPress Developer**  
 *Freelancer • 2015-2025*  
+- Created dynamic websites using WordPress
 - Customized and optimized WordPress themes
 - Improved site performance by 85% through caching optimization
 - Led security audits reducing vulnerabilities
@@ -185,16 +186,16 @@ Experienced **Linux System Administrator** and **WordPress Web Developer** with 
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
 
-### **🔹 WordPress Performance Optimization**
-- Implemented **caching strategies** (Redis, Varnish, WP Rocket) for improved load times.
-- Configured **Cloudflare and Nginx reverse proxy** for better security and performance.
+### **🔹 Self-host Home Server**
+- Implemented **everyday-use services** (Web Server, Password manager, Media Server) in order to achieve digital independence from subscription platforms.
+- Configured **Cloudflare and Nginx** for better security, availability and performance.
 
 ### **🔹 Automated Server Provisioning**
 - Developed **Ansible playbooks** to automate server configurations for staging and production environments.
-- Integrated **Docker and Kubernetes** for containerized deployment of web applications.
+- Integrated **Docker** for containerized deployment of web applications.
 
 ### **🔹 Security Hardening for Web Servers**
-- Conducted penetration testing and security audits for Linux-based web servers.
+- Conducted penetration testing and security audits for Linux-based web servers (Debian & Red Hat).
 - Implemented **fail2ban, ModSecurity, and SSL/TLS hardening**.
 
 </div>
@@ -202,7 +203,7 @@ Experienced **Linux System Administrator** and **WordPress Web Developer** with 
 ---
 
 ## **🛠 Tools & Technologies**
-🚀 Linux, WordPress, Apache, Nginx, MySQL, PostgreSQL, Docker, Kubernetes, Ansible, Terraform, AWS, Cloudflare, Git, Jenkins, Prometheus, Grafana, ELK Stack, Bash, Python.
+🚀 Linux, WordPress, Apache, Nginx, Traefik, MySQL, Docker, Ansible, Terraform, Cloudflare, Git, Prometheus, Grafana, Bash, Python.
 
 ---
 

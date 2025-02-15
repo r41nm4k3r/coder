@@ -62,3 +62,15 @@ other = "σφάλμα"
 
 [Welcome_to]
 other = "Καλώς ήρθατε στο"
+
+[Welcome_intro]
+other = "  "
+
+[explore]
+other = "Εξερευνήστε το ταξιδι μου στη σελιδα 👨‍💻 #Whoami,"
+
+[dive]
+other = "καντε μια βουτια στα  🚀 Projects μου,"
+
+[read]
+other = "και διαβάστε ολες τις τελευταίες σκέψεις μου στη σελιδα 📄 Blog."

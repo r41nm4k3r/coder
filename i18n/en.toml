@@ -62,3 +62,12 @@ other = "error"
 
 [Welcome_to]
 other = "Welcome to"
+
+[explore]
+other = "Explore my journey on the 👨‍💻 #Whoami page,"
+
+[dive]
+other = "dive into my 🚀 Projects,"
+
+[read]
+other = "and read my latest thoughts on the 📄 Blog."
