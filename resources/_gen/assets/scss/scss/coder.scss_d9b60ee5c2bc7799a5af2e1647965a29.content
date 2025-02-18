@@ -3825,7 +3825,7 @@ i {
 .blinking-cursor {
   font-weight: 100;
   font-size: 30px;
-  color: #2E3D48;
+  color: red;
   -webkit-animation: 1s blink step-end infinite;
   -moz-animation: 1s blink step-end infinite;
   -ms-animation: 1s blink step-end infinite;
@@ -3838,29 +3838,29 @@ i {
   50% {
     color: red; } }
 
-@-moz-keyframes blink {
+@-moz-keyframes "blink" {
   from, to {
     color: transparent; }
   50% {
-    color: black; } }
+    color: red; } }
 
 @-webkit-keyframes "blink" {
   from, to {
     color: transparent; }
   50% {
-    color: black; } }
+    color: red; } }
 
 @-ms-keyframes "blink" {
   from, to {
     color: transparent; }
   50% {
-    color: black; } }
+    color: red; } }
 
 @-o-keyframes "blink" {
   from, to {
     color: transparent; }
   50% {
-    color: black; } }
+    color: red; } }
 
 body {
   font-family: Arial, Helvetica, sans-serif; }
