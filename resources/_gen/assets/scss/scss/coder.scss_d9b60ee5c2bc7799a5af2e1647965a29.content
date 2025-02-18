@@ -4076,7 +4076,7 @@ h6 {
 #backToTop {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  left: 20px;
   display: none;
   background: teal;
   color: white;
@@ -4084,8 +4084,9 @@ h6 {
   padding: 10px 15px;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 26px;
-  size: 20px; }
+  font-size: 16px;
+  width: 50px;
+  height: 50px; }
 
 #backToTop:hover {
   background: red; }
