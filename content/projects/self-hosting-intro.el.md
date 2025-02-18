@@ -104,9 +104,11 @@ That's it! We finished the basic configuration of our **personal server**.
 
 With our Linux server configured, we are ready to self-host applications. In the next guides, we'll cover:
 
-✅ Setting up a self-hosted tunnel
+✅ Install & configure containers using **Docker** and **Portainer**. (PART 2)
 
-✅ Connect our server with cloudflare
+✅ Setting up a **Cloudflare** tunnel.
+
+✅ Connect our server to our private vpn secure access.
 
 ✅ Hosting your own media server (Jellyfin/Plex),password manger
 and many more!

@@ -105,9 +105,9 @@ That's it! We finished the basic configuration of our **personal server**.
 
 With our Linux server configured, we are ready to self-host applications. In the next guides, we'll cover:
 
-✅ Install & configure containers (Docker).
+✅ Install & configure containers using **Docker** and **Portainer**. (PART 2)
 
-✅ Setting up a cloudflare tunnel.
+✅ Setting up a **Cloudflare** tunnel.
 
 ✅ Connect our server to our private vpn secure access.
 
