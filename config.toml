@@ -50,7 +50,7 @@ customJS = []
 
 
 # Multilanguage mode
-#    langseparator = "|" # Separates menus from language selectors when site is multilingual.
+# langseparator = "|" # Separates menus from language selectors when site is multilingual.
 
 
 # If you want to use fathom(https://usefathom.com) for analytics, add this section
