@@ -1,9 +1,9 @@
 +++
 author = "Nny"
 title = "Self-Hosting Series: Part 2"
-date = "2025-02-19"
+date = "2025-02-18"
 type = "posts"
-description = "Containers"
+description = "Docker and Portainer"
 tags = [
     "linux",
     "server",
