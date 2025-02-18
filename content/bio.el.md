@@ -209,3 +209,78 @@ Experienced **Linux System Administrator** and **WordPress Web Developer** with 
 
 📄 **References available upon request**  
 🔗 *Download PDF CV: [johndoe-cv.pdf](/docs/johndoe-cv.pdf)*
+
+<a href="/contact" class="hire-btn" aria-label="Contact Me">
+  💼 Hire Me
+</a>
+
+<style>
+.hire-btn {
+  /* Visual Design */
+  background: var(--card-bg, #008080);
+  color: var(--text-color, #000000);
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 4px 20px rgba(0,128,128,0.3);
+  
+  /* Positioning */
+  position: fixed;
+  bottom: 10rem;
+  right: 2rem;
+  z-index: 999;
+  
+  /* Animations */
+  transition: all 0.3s ease;
+  transform: translateY(0);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  
+  /* Border & Effects */
+  border: 2px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(4px);
+}
+
+/* Hover Effects */
+.hire-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 25px rgba(0,128,128,0.4);
+  background: var(--card-bg-hover, #009696);
+}
+
+/* Click Animation */
+.hire-btn:active {
+  transform: scale(0.95);
+}
+
+/* Dark Mode Adaptation */
+@media (prefers-color-scheme: dark) {
+  .hire-btn {
+    box-shadow: 0 4px 20px rgba(0,128,128,0.6);
+    border: 2px solid rgba(255,255,255,0.2);
+  }
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+  .hire-btn {
+    bottom: 5rem;
+    right: 35%;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.7rem;
+  }
+}
+
+/* Optional Pulse Animation */
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(0,128,128,0.4); }
+  70% { box-shadow: 0 0 0 12px rgba(0,128,128,0); }
+  100% { box-shadow: 0 0 0 0 rgba(0,128,128,0); }
+}
+
+.hire-btn {
+  animation: pulse 2s infinite;
+}
+</style>
