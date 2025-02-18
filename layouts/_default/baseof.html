@@ -111,7 +111,7 @@
 
       {{ partial "footer.html" . }}
     </main>
-
+    
     {{ if .Site.IsServer }}
       {{ $script := resources.Get "js/coder.js" }}
       <script src="{{ $script.RelPermalink }}"></script>
@@ -155,6 +155,6 @@
     {{ if and .Site.Params.googleTagManager .Site.Params.googleTagManager.id }}
       {{- partial "analytics/googletagmanager" . -}}
     {{ end }}
-  </body>
 
+  </body>
 </html>
