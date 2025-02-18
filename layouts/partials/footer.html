@@ -15,5 +15,8 @@
     {{ if (and .Site.Params.commit .GitInfo) }}
       [<a href="{{ .Site.Params.commit }}/{{ .GitInfo.Hash }}">{{ .GitInfo.AbbreviatedHash }}</a>]
     {{ end }}
+    <button id="backToTop">🔝</button>
+    <link rel="stylesheet" href="{{ "css/back-to-top.css" | relURL }}">
+    <script src="{{ "js/back-to-top.js" | relURL }}"></script>
   </section>
 </footer>

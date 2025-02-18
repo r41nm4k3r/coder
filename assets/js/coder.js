@@ -28,6 +28,27 @@ document.addEventListener("DOMContentLoaded", function () {
     node.classList.remove('preload-transitions');
 });
 
+// start back to top button
+
+document.addEventListener("DOMContentLoaded", function () {
+    var backToTopButton = document.getElementById("backToTop");
+    console.log("DOM fully loaded");
+
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 300) {
+            backToTopButton.style.display = "block";
+        } else {
+            backToTopButton.style.display = "none";
+        }
+    });
+
+    backToTopButton.addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+});
+
+// end back to top button
+
 function setTheme(theme) {
     body.classList.remove('colorscheme-auto');
     let inverse = theme === 'dark' ? 'light' : 'dark';
