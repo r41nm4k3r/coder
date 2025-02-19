@@ -19,7 +19,11 @@ other = "posts"
 
 [reading_time]
 one = "One-minute read"
-other = "{{ .Count }}-minute read"
+other = "{{ .Count }} minute read"
+
+[words]
+one = "One word"
+other = "words"
 
 [page_not_found]
 other = "Page Not Found"

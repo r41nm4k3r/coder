@@ -29,6 +29,11 @@
               <i class="fa fa-clock-o" aria-hidden="true"></i>
               {{ i18n "reading_time" .ReadingTime }}
             </span>
+            &nbsp;
+            <span>
+              <i class="fa fa-book" aria-hidden="true"></i>
+              {{ .WordCount }} {{ i18n "words"}}
+            </span>
           </div>
           {{ with .Page.Params.Authors }}{{ partial "taxonomy/authors.html" . }}{{ end }}
           {{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}

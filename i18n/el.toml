@@ -18,8 +18,12 @@ other = "authors"
 other = "posts"
 
 [reading_time]
-one = "Διάβασμα ενος λεπτού"
-other = "{{ .Count }}-minute read"
+one = "1 λεπτό διάβασμα"
+other = "{{ .Count }} λεπτά διάβασμα"
+
+[words]
+one = "1 λέξη"
+other = "λέξεις"
 
 [page_not_found]
 other = "Η σελίδα δεν βρέθηκε"
