@@ -25,14 +25,14 @@ body {
 
 a {
   font-weight: 500;
-  color: teal;
+  color: #e53935;
   text-decoration: none;
   transition: all 0.25s ease-in;
 
   &:focus,
   &:hover {
-    text-decoration: none;
-    color: #e53935;
+    text-decoration: underline;
+    color: teal;
   }
 }
 

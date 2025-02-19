@@ -1,5 +1,5 @@
 +++
-title = "Posts"
+title = "My blog"
 slug = "Posts"
 +++
 
