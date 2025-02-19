@@ -1,6 +1,6 @@
 +++
 author = "Nny"
-title = "Self-Hosting Series: Part 2"
+title = "Self-Hosting Series: Μέρος 2"
 date = "2025-02-19"
 type = "posts"
 description = "Docker and Portainer"
@@ -9,7 +9,7 @@ tags = [
     "server",
     "self-host",
     "guide",
-    "part 2",
+    "μέρος 2",
 ]
 categories = [
     "linux",
