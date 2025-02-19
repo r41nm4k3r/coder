@@ -3054,11 +3054,12 @@ body {
       line-height: 1.6em; } }
 a {
   font-weight: 500;
-  color: #e53935;
+  color: teal;
   text-decoration: none;
   transition: all 0.25s ease-in; }
   a:focus, a:hover {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #e53935; }
 
 p {
   margin: 2rem 0 2rem 0; }
