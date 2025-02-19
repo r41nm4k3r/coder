@@ -1,6 +1,6 @@
 +++
 title = "DeepSeek R1 vs. ChatGPT-4"
-description = "How a Chinese AI Upstart is Redefining the Future of Artificial Intelligence"
+description = "Πώς μια νεοφυής κινεζική εταιρεία Τ.Ν. επαναπροσδιορίζει το μέλλον της τεχνητής νοημοσύνης"
 date = "2025-02-19"
 author = "Nny"
 type = "posts"
