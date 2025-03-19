@@ -29,7 +29,7 @@ author = "Hugo Authors"
  
 🔗 **Website:** [yourwebsite.com](https://yourwebsite.com)  
 💼 **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
-🐙 **GitHub:** [github.com/yourgithub](https://github.com/r41nm4k3r) 
+🐙 **GitHub:** [github.com/r41nm4k3r](https://github.com/r41nm4k3r) 
 
 </div>
 
