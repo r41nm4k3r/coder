@@ -23,7 +23,7 @@ author = "Hugo Authors"
 
 📍 **Location:** Athens, Greece  
 📧 **Email:** [iliopoulos.nikolas@gmail.com](mailto:iliopoulos.nikolas@gmail.com)  
-🔗 **Personal Website:** [https://nnyx.io](https://nnyx.io)  
+🔗 **Personal Website:** [nnyx.io](https://nnyx.io)  
   
  
  
