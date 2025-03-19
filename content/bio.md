@@ -10,7 +10,7 @@ author = "Hugo Authors"
 <div style="background-color: #2d3436; color: #ffffff; padding: 2rem; border-radius: 15px; margin-bottom: 2rem;">
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
-      <h1 style="color: #e53935; margin: 0;">Nikolaos Iliopoulos</h1>
+      <h1 style="color: #e53935; margin: 0;">NIKOLAOS ILIOPOULOS</h1>
       <p style="margin: 5;font-size:100%;color: #fafafa;"> Linux SysAdmin | Web Developer | DevOps</h3>
     </div>
     <img src="/images/profile.jpeg" style="width: 100px; height: 100px; border-radius: 50%; border: 3px solid #e53935;">
