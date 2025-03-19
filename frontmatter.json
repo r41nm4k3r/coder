@@ -64,23 +64,6 @@
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "static",
   "frontMatter.preview.host": "http://localhost:1313",
-  "frontMatter.content.pageFolders": [
-    {
-      "title": "content",
-      "path": "[[workspace]]/content"
-    },
-    {
-      "title": "projects",
-      "path": "[[workspace]]/content/projects"
-    },
-    {
-      "title": "tmp",
-      "path": "[[workspace]]/content/tmp"
-    },
-    {
-      "title": "archetypes",
-      "path": "[[workspace]]/archetypes"
-    }
-  ],
+  "frontMatter.content.pageFolders": [],
   "frontMatter.git.enabled": true
 }
