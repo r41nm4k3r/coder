@@ -1,6 +1,6 @@
 +++
-title = "Analysis of "The Rising Tide of Insignificancy by Cornelius Castoriadis"
-description = A quick look at: The Rising Tide of Insignificancy by Cornelius Castoriadis
+title = "The Rising Tide of Insignificancy by Cornelius Castoriadis"
+description = "A quick look at: The Rising Tide of Insignificancy by Cornelius Castoriadis"
 date = "2025-04-09"
 author = "Nny"
 type = "posts"

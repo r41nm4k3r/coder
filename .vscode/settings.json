@@ -4,12 +4,8 @@
         "editor.lineHeight": 26,
         "editor.wordWrap": "wordWrapColumn",
         "editor.wordWrapColumn": 64,
-        "editor.lineNumbers": "on",
-        "editor.quickSuggestions": {
-            "comments": "on",
-            "strings": "on",
-            "other": "on"
-        },
+        "editor.lineNumbers": "off",
+        "editor.quickSuggestions": false,
         "editor.minimap.enabled": false
     }
 }
