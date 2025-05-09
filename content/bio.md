@@ -27,7 +27,7 @@ author = "Hugo Authors"
   
  
  
-🔗 **Dev Website:** [nnyx.pro](https://nnyx.pro)  
+🔗 **Dev Website:** [nnyx.dev](https://nnyx.dev)  
 💼 **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
 🐙 **GitHub:** [github.com/r41nm4k3r](https://github.com/r41nm4k3r) 
 
