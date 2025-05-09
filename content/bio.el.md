@@ -22,7 +22,7 @@ author = "Hugo Authors"
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
 
 📍 **Location:** Athens, Greece  
-📧 **Email:** [iliopoulos.nikolas@gmail.com](mailto:iliopoulos.nikolas@gmail.com)  
+📧 **Email:** [nicholas@nnyx.io](mailto:nicholas@nnyx.io)  
 🔗 **Personal Website:** [nnyx.io](https://nnyx.io)  
   
  
