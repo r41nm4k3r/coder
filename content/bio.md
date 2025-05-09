@@ -28,7 +28,7 @@ author = "Hugo Authors"
  
  
 🔗 **Dev Website:** [nnyx.dev](https://nnyx.dev)  
-💼 **LinkedIn:** [linkedin.com/in/nicholas](linkedin.com/in/nikolaos-iliopoulos-671995a4)  
+💼 **LinkedIn:** [linkedin.com/in/nicholas](https://www.linkedin.com/in/nikolaos-iliopoulos-671995a4/)  
 🐙 **GitHub:** [github.com/r41nm4k3r](https://github.com/r41nm4k3r) 
 
 </div>
