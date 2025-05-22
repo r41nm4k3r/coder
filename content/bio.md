@@ -167,6 +167,13 @@ Experienced **Linux System Administrator** and **WordPress Web Developer** with 
 - Ceeated, Customized and optimized Hugo themes
 - Improved site performance by 85% through caching optimization
 - Configure properly custom e-mail adresses
+
+### **NnyX**  
+🚀 **Startup W.i.P** • 2025*
+- Providing digital consulting
+- Offering IT services
+- Guidance for digital wellbeing
+
 ---
 
 ## **🎓 Education & Certifications**
