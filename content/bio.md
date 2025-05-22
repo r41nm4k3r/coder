@@ -161,11 +161,12 @@ Experienced **Linux System Administrator** and **WordPress Web Developer** with 
 - Conducted security audits and applied **best security practices** for WordPress and Linux servers.
 - Reduced server costs by 90% through containerization and auto-scaling
 
-### **WordPress Developer**  
+### **WordPress & Hugo Developer**  
 🚀 **Freelancer** • 2015 to Present*  
 - Customized and optimized WordPress themes
+- Ceeated, Customized and optimized Hugo themes
 - Improved site performance by 85% through caching optimization
-- Conducted security audits reducing vulnerabilities
+- Configure properly custom e-mail adresses
 ---
 
 ## **🎓 Education & Certifications**
