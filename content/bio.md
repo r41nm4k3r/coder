@@ -141,43 +141,39 @@ Experienced **Linux System Administrator** and **WordPress Web Developer** with 
 
 ## **💼 Professional Experience**
 
-### **Senior Linux System Administrator & WordPress Developer**  
-🚀 **[Company Name]** – [Year Started] to Present  
-
-- Managed and optimized Linux-based web servers for improved uptime and security.
-- Developed and maintained custom WordPress themes and plugins for high-performance websites.
-- Automated deployment processes using **Ansible** and **Terraform**.
-- Implemented **CI/CD pipelines** for smooth development and staging environments.
-- Conducted security audits and applied **best security practices** for WordPress and Linux servers.
-
 ### **Linux System Administrator**  
-⚡ **[Previous Company Name]** – [Year Started] to [Year Ended]  
-📍 [Location]
+⚡ **PT Systems** • 2015 to 2018  
+📍 [Athens]
 
 - Maintained and configured **LAMP/LEMP stacks** for hosting multiple websites.
 - Managed databases (**MySQL, PostgreSQL**) and optimized queries for performance.
 - Ensured **server uptime and availability** through monitoring and proactive maintenance.
 - Provided **technical support** and troubleshooting for clients and team members.
 
-### **Senior Linux Administrator**  
-*Tech Corp Inc. • 2020-Present*  
-- Migrated 200+ WordPress sites to AWS infrastructure with zero downtime
-- Reduced server costs by 40% through containerization and auto-scaling
-- Implemented CI/CD pipeline reducing deployment time by 70%
+### **Senior Linux System Administrator**
+🚀 **Freelancer** • 2018 to Present  
+
+- Managed and optimized Linux-based web servers for improved uptime and security.
+- Developed and maintained custom WordPress themes and plugins for high-performance websites.
+- Migrated WordPress sites to self-hosted infrastructure with almost zero downtime
+- Automated deployment processes using **Ansible**.
+- Implemented **CI/CD pipelines** for smooth development and staging environments.
+- Conducted security audits and applied **best security practices** for WordPress and Linux servers.
+- Reduced server costs by 90% through containerization and auto-scaling
 
 ### **WordPress Developer**  
-*Freelancer • 2015-2025*  
+🚀 **Freelancer** • 2015 to Present*  
 - Customized and optimized WordPress themes
 - Improved site performance by 85% through caching optimization
-- Led security audits reducing vulnerabilities
-
+- Conducted security audits reducing vulnerabilities
 ---
 
 ## **🎓 Education & Certifications**
-  📜 Red Hat Certified Engineer (RHCE)  
-  📜 AWS Certified DevOps Engineer  
+  📜 Red Hat Certified Engineer (RHCE)    
   📜 WordPress Professional Developer  
-  📜 Certified Kubernetes Administrator
+  📜 CCNA
+  📜 CCNA Sec
+  📜 VMware vSphere 6.7 Foundations
 
 ---
 
@@ -186,12 +182,12 @@ Experienced **Linux System Administrator** and **WordPress Web Developer** with 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
 
 ### **🔹 WordPress Performance Optimization**
-- Implemented **caching strategies** (Redis, Varnish, WP Rocket) for improved load times.
+- Implemented **caching strategies** for improved load times.
 - Configured **Cloudflare and Nginx reverse proxy** for better security and performance.
 
 ### **🔹 Automated Server Provisioning**
 - Developed **Ansible playbooks** to automate server configurations for staging and production environments.
-- Integrated **Docker and Kubernetes** for containerized deployment of web applications.
+- Integrated **Docker** for containerized deployment of web applications.
 
 ### **🔹 Security Hardening for Web Servers**
 - Conducted penetration testing and security audits for Linux-based web servers.
@@ -202,7 +198,7 @@ Experienced **Linux System Administrator** and **WordPress Web Developer** with 
 ---
 
 ## **🛠 Tools & Technologies**
-🚀 Linux, WordPress, Apache, Nginx, MySQL, PostgreSQL, Docker, Kubernetes, Ansible, Terraform, AWS, Cloudflare, Git, Jenkins, Prometheus, Grafana, ELK Stack, Bash, Python.
+🚀 Linux, WordPress, Apache, Nginx, MySQL, PostgreSQL, Docker,  Ansible, Cloudflare, Git, Bash, Python.
 
 ---
 
