@@ -141,7 +141,7 @@ Experienced **Linux System Administrator** and **WordPress Web Developer** with 
 
 ## **💼 Professional Experience**
 
-### **Linux System Administrator**  
+### **Junior I.T.**  
 ⚡ **PT Systems** • 2015 to 2018  
 📍 [Athens]
 
@@ -162,7 +162,7 @@ Experienced **Linux System Administrator** and **WordPress Web Developer** with 
 - Reduced server costs by 90% through containerization and auto-scaling
 
 ### **WordPress & Hugo Developer**  
-🚀 **Freelancer** • 2015 to Present*  
+🚀 **Freelancer** • 2010 to Present*  
 - Customized and optimized WordPress themes
 - Ceeated, Customized and optimized Hugo themes
 - Improved site performance by 85% through caching optimization

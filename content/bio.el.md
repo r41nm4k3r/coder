@@ -11,7 +11,7 @@ author = "Hugo Authors"
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
       <h1 style="color: #e53935; margin: 0;">NIKOLAOS ILIOPOULOS</h1>
-      <p style="margin: 5;font-size:100%;color: #fafafa;"> Linux SysAdmin | Web Developer | DevOps </h3>
+      <p style="margin: 5;font-size:100%;color: #fafafa;"> Linux SysAdmin | Web Developer | DevOps</h3>
     </div>
     <img src="/images/profile.jpeg" style="width: 100px; height: 100px; border-radius: 50%; border: 3px solid #e53935;">
   </div>
@@ -27,7 +27,7 @@ author = "Hugo Authors"
   
  
  
-🔗 **Dev Website:** [nnyx.dev](https://nnyx.dev)   
+🔗 **Dev Website:** [nnyx.dev](https://nnyx.dev)  
 💼 **LinkedIn:** [linkedin.com/in/nicholas](https://www.linkedin.com/in/nikolaos-iliopoulos-671995a4/)  
 🐙 **GitHub:** [github.com/r41nm4k3r](https://github.com/r41nm4k3r) 
 
@@ -141,44 +141,47 @@ Experienced **Linux System Administrator** and **WordPress Web Developer** with 
 
 ## **💼 Professional Experience**
 
-### **Senior Linux System Administrator & WordPress Developer**  
-🚀 **[Company Name]** – [Year Started] to Present  
-
-- Managed and optimized Linux-based web servers for improved uptime and security.
-- Developed and maintained custom WordPress themes and plugins for high-performance websites.
-- Automated deployment processes using **Ansible** and **Terraform**.
-- Implemented **CI/CD pipelines** for smooth development and staging environments.
-- Conducted security audits and applied **best security practices** for WordPress and Linux servers.
-
-### **Linux System Administrator**  
-⚡ **[Previous Company Name]** – [Year Started] to [Year Ended]  
-📍 [Location]
+### **Junior I.T.**  
+⚡ **PT Systems** • 2015 to 2018  
+📍 [Athens]
 
 - Maintained and configured **LAMP/LEMP stacks** for hosting multiple websites.
 - Managed databases (**MySQL, PostgreSQL**) and optimized queries for performance.
 - Ensured **server uptime and availability** through monitoring and proactive maintenance.
 - Provided **technical support** and troubleshooting for clients and team members.
 
-### **Senior Linux Administrator**  
-*Tech Corp Inc. • 2020-Present*  
-- Migrated 200+ WordPress sites to AWS infrastructure with zero downtime
-- Reduced server costs by 40% through containerization and auto-scaling
-- Implemented CI/CD pipeline reducing deployment time by 70%
+### **Senior Linux System Administrator**
+🚀 **Freelancer** • 2018 to Present  
 
-### **WordPress Developer**  
-*Freelancer • 2015-2025*  
-- Created dynamic websites using WordPress
+- Managed and optimized Linux-based web servers for improved uptime and security.
+- Developed and maintained custom WordPress themes and plugins for high-performance websites.
+- Migrated WordPress sites to self-hosted infrastructure with almost zero downtime
+- Automated deployment processes using **Ansible**.
+- Implemented **CI/CD pipelines** for smooth development and staging environments.
+- Conducted security audits and applied **best security practices** for WordPress and Linux servers.
+- Reduced server costs by 90% through containerization and auto-scaling
+
+### **WordPress & Hugo Developer**  
+🚀 **Freelancer** • 2010 to Present*  
 - Customized and optimized WordPress themes
+- Ceeated, Customized and optimized Hugo themes
 - Improved site performance by 85% through caching optimization
-- Led security audits reducing vulnerabilities
+- Configure properly custom e-mail adresses
+
+### **NnyX**  
+🚀 **Startup W.i.P** • 2025*
+- Providing digital consulting
+- Offering IT services
+- Guidance for digital wellbeing
 
 ---
 
 ## **🎓 Education & Certifications**
-  📜 Red Hat Certified Engineer (RHCE)  
-  📜 AWS Certified DevOps Engineer  
+  📜 Red Hat Certified Engineer (RHCE)    
   📜 WordPress Professional Developer  
-  📜 Certified Kubernetes Administrator
+  📜 CCNA
+  📜 CCNA Sec
+  📜 VMware vSphere 6.7 Foundations
 
 ---
 
@@ -186,16 +189,16 @@ Experienced **Linux System Administrator** and **WordPress Web Developer** with 
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
 
-### **🔹 Self-host Home Server**
-- Implemented **everyday-use services** (Web Server, Password manager, Media Server) in order to achieve digital independence from subscription platforms.
-- Configured **Cloudflare and Nginx** for better security, availability and performance.
+### **🔹 WordPress Performance Optimization**
+- Implemented **caching strategies** for improved load times.
+- Configured **Cloudflare and Nginx reverse proxy** for better security and performance.
 
 ### **🔹 Automated Server Provisioning**
 - Developed **Ansible playbooks** to automate server configurations for staging and production environments.
 - Integrated **Docker** for containerized deployment of web applications.
 
 ### **🔹 Security Hardening for Web Servers**
-- Conducted penetration testing and security audits for Linux-based web servers (Debian & Red Hat).
+- Conducted penetration testing and security audits for Linux-based web servers.
 - Implemented **fail2ban, ModSecurity, and SSL/TLS hardening**.
 
 </div>
@@ -203,7 +206,7 @@ Experienced **Linux System Administrator** and **WordPress Web Developer** with 
 ---
 
 ## **🛠 Tools & Technologies**
-🚀 Linux, WordPress, Apache, Nginx, Traefik, MySQL, Docker, Ansible, Terraform, Cloudflare, Git, Prometheus, Grafana, Bash, Python.
+🚀 Linux, WordPress, Apache, Nginx, MySQL, PostgreSQL, Docker,  Ansible, Cloudflare, Git, Bash, Python.
 
 ---
 
