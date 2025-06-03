@@ -177,8 +177,8 @@ Experienced **Linux System Administrator** and **WordPress Web Developer** with 
 ---
 
 ## **🎓 Education & Certifications**
-  📜 Red Hat Certified Engineer (RHCE)    
-  📜 WordPress Professional Developer  
+  📜 Red Hat Certified Engineer (RHCE)
+  📜 Red Hat Enterprise Linux Automation with Ansible       
   📜 CCNA
   📜 CCNA Sec
   📜 VMware vSphere 6.7 Foundations
