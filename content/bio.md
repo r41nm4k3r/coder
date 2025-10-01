@@ -22,14 +22,15 @@ author = "Hugo Authors"
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
 
 📍 **Location:** Athens, Greece  
-📧 **Email:** [nicholas@nnyx.io](mailto:nicholas@nnyx.io)  
-🔗 **Personal Website:** [nnyx.io](https://nnyx.io)  
+📧 **Email:** [info@nnyx.dev](mailto:info@nnyx.dev)  
+📧 **Personal Email:** [nicholas@nnyx.dev](mailto:nicholas@nnyx.dev)    
   
  
  
-🔗 **Dev Website:** [nnyx.dev](https://nnyx.dev)  
+🔗 **Website:** [nnyx.io](https://nnyx.io)
+🔗 **Personal Website:** [nnyx.dev](https://nnyx.dev)
+🐙 **GitHub:** [github.com/r41nm4k3r](https://github.com/r41nm4k3r)
 💼 **LinkedIn:** [linkedin.com/in/nicholas](https://www.linkedin.com/in/nikolaos-iliopoulos-671995a4/)  
-🐙 **GitHub:** [github.com/r41nm4k3r](https://github.com/r41nm4k3r) 
 
 </div>
 
