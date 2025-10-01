@@ -27,12 +27,13 @@ author = "Hugo Authors"
   
  
  
-🔗 **Website:** [nnyx.io](https://nnyx.io)
-🔗 **Personal Website:** [nnyx.dev](https://nnyx.dev)
-🐙 **GitHub:** [github.com/r41nm4k3r](https://github.com/r41nm4k3r)
-💼 **LinkedIn:** [linkedin.com/in/nicholas](https://www.linkedin.com/in/nikolaos-iliopoulos-671995a4/)  
+🔗 **Website:** [nnyx.io](https://nnyx.io)  
+🔗 **Personal Website:** [nnyx.dev](https://nnyx.dev)  
+🐙 **GitHub:** [github.com/r41nm4k3r](https://github.com/r41nm4k3r)  
+💼 **LinkedIn:** [linkedin.com/in/nicholas](https://www.linkedin.com/in/nikolaos-iliopoulos-671995a4/)    
 
 </div>
+
 
 ---
 
